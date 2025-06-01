@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+<div class="container">
+  <a class="navbar-brand logo" href="#">M.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse navbaritemsalignment" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-link active" id="navItem1" href="#" onclick="display('section1')">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" id="navItem2" href="#" onclick="display('section2')">About Me</a>
+      <a class="nav-link" id="navItem3" href="#" onclick="display('section3')">Projects</a>
+      <a class="nav-link" id="navItem4" href="#" onclick="display('section4')">Contact</a>
+    </div>
+  </div>
+</div>
+</nav>
+</header>
+
+<main>
+<section>
+<div id="section1" class="homesectionContainer">
+    <div class="text-center">
+        <h1 class="homeHeading">Hi, I'm Manisha</h1>
+        <p class="homeParagraph"> I'm a FRONT END DEVELOPER</p>
+        <button class="customButton" onclick="display('section2')">Know More</button>
+    </div>
+  </div>
+</section>
+
+<section>
+<div id="section2" class="aboutContainer1">
+  <div class="aboutContainer2">
+        <h2 class="aboutHeading">About Me</h2>
+        <p class="aboutParagraph">
+          Hi Iam manisha completed my Btech CSE from Aurora's technological and research institute from Hyderabad and Had hands on experience with web technologies like HTML,CSS,BOOTSTRAP,FLEXBOX and created user-interactive web-application using JAVASCRIPT. </ br>In my major project we wordked on association mining algorithms such as Apriori, Flitered associater and predictive apriori algorithms and analyzed the frequent item sets generated and number of cycles performed on both low and high dimensional datasets and observed that these algorithms work well with low-dimensions datasets but fails with high-dimension datasets due to curse of dimensionality and concluded that parallel map reduce algorithm is best  for association mining on high-dimensional datesets.The research is done using R,SQL,Python,Hadoop,MATLAB technologies. </ br>Also had hands on experience with creating AWS,linux servers.</p> 
+        </div>
+  </div>
+</section>
+
+  
+ <section>
+  <div id="section3" class="portfolioContainer">
+      <h2 class="projectheading">My Projects</h2>
+          <div class="project-gallery">
+            <div class="project">
+                <a href="https://manishamtourism.ccbp.tech/">1.Click here to visit Static Website</a>
+                <p>Static Website : Tourism website to browse through the content,videos and images of popular destinations.</p>
+            </div>
+            
+            <div class="project">
+                <a href="https://manishaweb.ccbp.tech/">2.Click here to visit Responsive</a>
+                <p>Responsive Website:Food Much: Responsive listing website for small business owners using HTML,CSS,BOOTSTRAP.</p>
+            </div>
+            
+            <div class="project">    
+              <a href="https://manishatodosapp.ccbp.tech/">3.Click here to visit Todo App</a>
+               <p>Javascript: TODO APP: It is a interactive web app to create, delete tasks, save tasks list using DOM,Events,Execution context and persisting data in local storage after reload.</p>
+              
+               <a href="https://manishacatapp.ccbp.tech/">4.Click here to visit Cat and Light App</a>  
+               <p>Javascript: Created interactive Cat and Light web app using Dom manipulations and events</p>
+              </div>
+            
+              <div class="project">
+                <a href="https://manishasreactjs.ccbp.tech/">5.Click here to visit Random number generator</a>    
+                <p>ReactJS: Random number generator using react App</p>
+                
+                <a href="https://reactmanisha.ccbp.tech/">6.Click here to visit Feedback App</a>               
+                <p>ReactJS: Created Feedback website using react.</p>
+                
+                <a href="https://manishareact.ccbp.tech/">7.Click here to visit website</a>                  
+                <p>ReactJs: Built App using react.</p>
+            </div>
+        </div>
+
+  </div>
+  </section>
+</main>
+
+<footer>
+<div id="section4" class="footerContainer">
+    <h1 class="contactheading">Contact Me</h1>
+    <div class="contactlist">  
+      <a href="https://www.linkedin.com/in/manisha-meka/" class="icon"><i class="fa-brands fa-linkedin"></i></a>     
+      <a href="https://github.com/manisha73-16" class="icon"><i class="fa-brands fa-github"></i></a>    
+    </div> 
+
+<form action="submit_form.php" method="post">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    
+    <button type="submit">Submit</button>
+</form>
+    <p class="rights">&copy; 2025 My Portfolio. All rights reserved.</p>
+
+</div>
+</footer>
+
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
